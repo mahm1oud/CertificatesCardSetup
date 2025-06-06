@@ -1,0 +1,282 @@
+[2025-05-04T06:38:37.122Z] ERROR: [CLIENT] [CLIENT ERROR] Error: useAuth must be used within an AuthProvider
+META: {
+  "stack": "Error: useAuth must be used within an AuthProvider\n    at useAuth (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/hooks/use-auth.tsx:314:11)\n    at Header (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/header.tsx:108:36)\n    at renderWithHooks (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:11089:26)\n    at mountIndeterminateComponent (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:14467:21)\n    at beginWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:15455:22)\n    at HTMLUnknownElement.callCallback2 (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3215:22)\n    at Object.invokeGuardedCallbackDev (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3240:24)\n    at invokeGuardedCallback (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3274:39)\n    at beginWork$1 (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:19306:15)\n    at performUnitOfWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18739:20)",
+  "componentStack": "",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:40:03.693Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "2052",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.6.144",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.6.144",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
+[2025-05-04T06:38:37.182Z] ERROR: [CLIENT] [CLIENT ERROR] Error: useAuth must be used within an AuthProvider
+META: {
+  "stack": "Error: useAuth must be used within an AuthProvider\n    at useAuth (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/hooks/use-auth.tsx:314:11)\n    at Header (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/header.tsx:108:36)\n    at renderWithHooks (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:11089:26)\n    at mountIndeterminateComponent (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:14467:21)\n    at beginWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:15455:22)\n    at HTMLUnknownElement.callCallback2 (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3215:22)\n    at Object.invokeGuardedCallbackDev (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3240:24)\n    at invokeGuardedCallback (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:3274:39)\n    at beginWork$1 (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:19306:15)\n    at performUnitOfWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18739:20)",
+  "componentStack": "",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:40:03.728Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "2052",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.6.144",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.6.144",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
+[2025-05-04T06:38:37.230Z] ERROR: [CLIENT] [CLIENT ERROR] Error: useAuth must be used within an AuthProvider
+META: {
+  "stack": "Error: useAuth must be used within an AuthProvider\n    at useAuth (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/hooks/use-auth.tsx:314:11)\n    at Header (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/header.tsx:108:36)\n    at renderWithHooks (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:11089:26)\n    at mountIndeterminateComponent (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:14467:21)\n    at beginWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:15455:22)\n    at beginWork$1 (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:19294:22)\n    at performUnitOfWork (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18739:20)\n    at workLoopSync (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18678:13)\n    at renderRootSync (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18657:15)\n    at recoverFromConcurrentError (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OW53AWJ6.js?v=5d8b05dd:18277:28)",
+  "componentStack": "\n    at Header (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/header.tsx:108:36)\n    at div\n    at Router (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/App.tsx?v=vTZgIfOBFX4J9Zef9j8pE:117:19)\n    at AuthProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/hooks/use-auth.tsx?t=1746340711408:26:32)\n    at I18nProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/lib/i18n.tsx:32:32)\n    at Provider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OLXOVOTN.js?v=5d8b05dd:48:15)\n    at TooltipProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=5d8b05dd:63:5)\n    at J (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:42:18)\n    at QueryClientProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=5d8b05dd:2875:3)\n    at ErrorBoundary (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/error-boundary.tsx:7:5)\n    at App\n    at V (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:44:25)\n    at J (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:42:18)\n    at QueryClientProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=5d8b05dd:2875:3)",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:40:03.740Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "3850",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.12.24",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.12.24",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
+[2025-05-04T06:57:18.017Z] ERROR: [CLIENT] [CLIENT ERROR] TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx
+META: {
+  "stack": "TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx",
+  "componentStack": "\n    at Route (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/wouter.js?v=5d8b05dd:338:16)\n    at Switch (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/wouter.js?v=5d8b05dd:394:17)\n    at Suspense\n    at main\n    at div\n    at Router (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/App.tsx?v=Ic2LDEyR8QGz5Y6DSLV2e:117:19)\n    at AuthProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/hooks/use-auth.tsx:26:32)\n    at I18nProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/lib/i18n.tsx:32:32)\n    at Provider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/chunk-OLXOVOTN.js?v=5d8b05dd:48:15)\n    at TooltipProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=5d8b05dd:63:5)\n    at J (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:42:18)\n    at QueryClientProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=5d8b05dd:2875:3)\n    at ErrorBoundary (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/components/error-boundary.tsx:7:5)\n    at App\n    at V (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:44:25)\n    at J (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/next-themes.js?v=5d8b05dd:42:18)\n    at QueryClientProvider (https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=5d8b05dd:2875:3)",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:58:17.877Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "2664",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.6.144",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.6.144",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
+[2025-05-04T06:57:18.341Z] ERROR: [CLIENT] [CLIENT ERROR] TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx
+META: {
+  "stack": "TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx",
+  "componentStack": "",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:58:17.862Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "657",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.6.144",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.6.144",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
+[2025-05-04T06:57:18.656Z] ERROR: [CLIENT] [CLIENT ERROR] TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx
+META: {
+  "stack": "TypeError: Failed to fetch dynamically imported module: https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/src/pages/template-form.tsx",
+  "componentStack": "",
+  "url": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+  "timestamp": "2025-05-04T06:58:17.873Z",
+  "request": {
+    "url": "/api/log-client-error",
+    "method": "POST",
+    "headers": {
+      "host": "6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "content-length": "657",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "ar,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/json",
+      "cookie": "connect.sid=s%3AhcK80b8aXosvrE6i4ulzR_2Xt4dwMruT.MmwtBw9Z2YQrs7JWbhQkYfAou6h%2B%2Fq9npYawkjR3uKA",
+      "origin": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev",
+      "referer": "https://6b7461f5-368b-4ce4-97a3-0df167413045-00-1v7qmkttz1azh.riker.replit.dev/cards/other/1",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-storage-access": "active",
+      "x-forwarded-for": "175.110.11.83, 10.81.6.144",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "ip": "10.81.6.144",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user": {
+      "id": 1,
+      "username": "admin"
+    }
+  }
+}
+
