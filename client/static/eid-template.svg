@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFFFFF" />
+  <rect x="50" y="50" width="700" height="500" fill="#F9F9FF" stroke="#5E35B1" stroke-width="4" />
+  <path d="M400,120 Q420,80 450,120 T500,120 Q480,80 450,120 T400,120" fill="#5E35B1" />
+  <path d="M300,120 Q320,80 350,120 T400,120 Q380,80 350,120 T300,120" fill="#5E35B1" />
+  <text x="400" y="200" font-family="Arial" font-size="24" text-anchor="middle" fill="#5E35B1">عيد مبارك</text>
+  <text x="400" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="#5E35B1">كل عام وأنتم بخير</text>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#5E35B1">تقبل الله منا ومنكم صالح الأعمال</text>
+  <text x="400" y="350" font-family="Arial" font-size="16" text-anchor="middle" fill="#5E35B1">مع أطيب التمنيات</text>
+  <text x="400" y="390" font-family="Arial" font-size="16" text-anchor="middle" fill="#5E35B1">[الاسم]</text>
+  <path d="M300,450 C350,430 450,430 500,450" fill="none" stroke="#5E35B1" stroke-width="2" />
+</svg>

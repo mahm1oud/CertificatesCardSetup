@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#002C59" />
+  <rect x="50" y="50" width="700" height="500" fill="#00204A" stroke="#FFD700" stroke-width="4" />
+  <path d="M400,120 C380,120 360,150 350,200 C355,200 360,180 400,180 C440,180 445,200 450,200 C440,150 420,120 400,120 Z" fill="#FFD700" />
+  <text x="400" y="250" font-family="Arial" font-size="24" text-anchor="middle" fill="#FFFFFF">رمضان كريم</text>
+  <text x="400" y="300" font-family="Arial" font-size="18" text-anchor="middle" fill="#FFFFFF">كل عام وأنتم بخير</text>
+  <text x="400" y="340" font-family="Arial" font-size="16" text-anchor="middle" fill="#FFFFFF">مع أطيب التمنيات</text>
+  <text x="400" y="380" font-family="Arial" font-size="16" text-anchor="middle" fill="#FFFFFF">[الاسم]</text>
+  <path d="M300,450 L500,450" stroke="#FFD700" stroke-width="2" />
+  <circle cx="300" cy="450" r="3" fill="#FFD700" />
+  <circle cx="500" cy="450" r="3" fill="#FFD700" />
+  <path d="M320,430 C360,410 440,410 480,430" fill="none" stroke="#FFD700" stroke-width="2" />
+</svg>
